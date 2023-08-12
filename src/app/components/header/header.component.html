@@ -1,0 +1,18 @@
+<header class="header">
+    <span class="material-icons"(click)="headerMenu=!headerMenu">
+        menu
+    </span>
+    <div class="header__title">{{app.title }}</div>
+    <span class="material-icons">
+            settings
+     </span>
+    
+</header>
+
+<div class="header-menu" [class._active]="headerMenu">
+    <a routerLink="/">home</a>
+    <a routerLink="/">Profile</a>
+    <button (click)="article=!article">Click</button>
+
+    <p *ngIf="article">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, officia reiciendis vero atque excepturi a aliquid velit. Facilis temporibus laboriosam dolore similique commodi magni, dolor laborum sapiente, ab, veniam officiis?</p>
+</div>

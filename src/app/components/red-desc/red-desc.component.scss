@@ -1,0 +1,30 @@
+@import 'angular';
+.blue-desc {
+    border-radius: 15px;
+    background: #FFF4F4;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 200px;
+    &__img {
+    }
+
+    &__title {
+        color: #FF5648;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__desc {
+        color: #A27A7A;
+        font-family: Roboto;
+            font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+.main-block {
+}

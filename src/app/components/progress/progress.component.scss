@@ -1,0 +1,34 @@
+@import 'angular';
+
+.progress {
+    
+
+    &__title {
+        color: #595085;
+font-family: $ff;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-bottom: 10px;
+
+        span{
+            color: #c93f80;
+        }
+    }
+
+    &__bar {
+        background-repeat: 5px;
+        background: #fdf9f8;
+        padding: 2px;
+        position: relative;
+    }
+
+
+    &__line {
+        border-radius: 5px;
+        background: #c93f80;
+        width: 60%;
+        height: 4px;
+    }
+}
